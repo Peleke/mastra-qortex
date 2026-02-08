@@ -1,4 +1,4 @@
-# @peleke/mastra-qortex
+# @peleke.s/mastra-qortex
 
 [MastraVector](https://mastra.ai/docs/reference/rag/vectors) backed by [qortex](https://github.com/Peleke/qortex) — graph-enhanced retrieval via MCP.
 
@@ -11,7 +11,7 @@ A `MastraVector` implementation that gives any Mastra app access to qortex's kno
 ## Install
 
 ```bash
-npm install @peleke/mastra-qortex
+npm install @peleke.s/mastra-qortex
 ```
 
 Requires a running qortex MCP server (`pip install qortex`).
@@ -19,7 +19,7 @@ Requires a running qortex MCP server (`pip install qortex`).
 ## Quick start
 
 ```typescript
-import { QortexVector } from "@peleke/mastra-qortex";
+import { QortexVector } from "@peleke.s/mastra-qortex";
 
 const qortex = new QortexVector({
   id: "qortex",

@@ -1,6 +1,6 @@
 # MastraVector Integration Guide
 
-`@peleke/mastra-qortex` implements Mastra's `MastraVector` abstract class. It works anywhere Mastra expects a vector store: agents, workflows, RAG pipelines, `query()`, `upsert()`, etc.
+`@peleke.s/mastra-qortex` implements Mastra's `MastraVector` abstract class. It works anywhere Mastra expects a vector store: agents, workflows, RAG pipelines, `query()`, `upsert()`, etc.
 
 qortex augments standard vector search with graph structure, rules, and feedback-driven learning. This package gives Mastra users access to those capabilities through the API they already know.
 
@@ -9,7 +9,7 @@ qortex augments standard vector search with graph structure, rules, and feedback
 ### Spawn qortex server automatically
 
 ```typescript
-import { QortexVector } from "@peleke/mastra-qortex";
+import { QortexVector } from "@peleke.s/mastra-qortex";
 
 const qortex = new QortexVector({
   id: "qortex",

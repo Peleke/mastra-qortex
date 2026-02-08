@@ -35,7 +35,7 @@ On top of the standard API, qortex adds three capabilities that aren't part of M
 ## The Swap
 
 ```typescript
-import { QortexVector } from "@peleke/mastra-qortex";
+import { QortexVector } from "@peleke.s/mastra-qortex";
 
 // Before: const vectorStore = new PgVector({ ... });
 // After:

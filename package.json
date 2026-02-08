@@ -1,5 +1,5 @@
 {
-  "name": "@peleke/mastra-qortex",
+  "name": "@peleke.s/mastra-qortex",
   "version": "0.1.0",
   "description": "MastraVector backed by qortex knowledge graph — graph-enhanced retrieval via MCP",
   "type": "module",
