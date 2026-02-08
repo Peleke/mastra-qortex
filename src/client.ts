@@ -106,6 +106,17 @@ export class QortexMcpClient {
       return {};
     }
 
-    return JSON.parse(textBlock.text);
+    // Handle MCP error responses that aren't valid JSON
+    // (e.g. "Error calling tool 'qortex_vector_create_index'...")
+    try {
+      return JSON.parse(textBlock.text);
+    } catch {
+      // If the result has isError flag, throw with the raw text
+      if (result.isError) {
+        throw new Error(`MCP tool error: ${textBlock.text}`);
+      }
+      // Otherwise return the raw text wrapped in an object
+      return { raw: textBlock.text };
+    }
   }
 }
