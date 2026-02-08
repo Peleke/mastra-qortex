@@ -1,6 +1,18 @@
+<div align="center">
+
 # @peleke.s/mastra-qortex
 
+### MastraVector Backed by Graph-Enhanced Retrieval
+
+[![npm](https://img.shields.io/npm/v/@peleke.s/mastra-qortex?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@peleke.s/mastra-qortex)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 [MastraVector](https://mastra.ai/docs/reference/rag/vectors) backed by [qortex](https://github.com/Peleke/qortex) — graph-enhanced retrieval via MCP.
+
+[Install](#install) · [Quick Start](#quick-start) · [Case Study](docs/case-study.md) · [qortex](https://github.com/Peleke/qortex)
+
+</div>
 
 A `MastraVector` implementation that gives any Mastra app access to qortex's knowledge graph. Works alongside Mastra's existing 22+ vector stores, adding:
 
